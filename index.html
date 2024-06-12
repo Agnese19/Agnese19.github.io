@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="it–IT">
+<head> 
+	<title> La scrivania di Arnoldo Mondadori </title>
+	<link rel="icon" type="image/x-icon" href="Img/Layout/logo.png">
+	<meta charset="UTF-8">
+	<meta name="DC.Title" content="La scrivania di Arnoldo Mondadori">
+  	<meta name="DC.Creator" content="Sfratato, Agnese">
+  	<meta name="DC.Subject" content="markup languages">
+  	<meta name="DC.Subject" content="archivio digitale">
+  	<meta name="DC.Subject" content="Arnoldo Mondadori">
+ 	<meta name="DC.Subject" content="XML/TEI">
+ 	<meta name="DC.Description" content="Archivio dedicato alla raccolta di documenti di vario tipo (lettere, contratti, pareri editoriali, cartoline...) riguardanti la vita privata e la carriera editoriale di Arnoldo Mondadori">
+  	<meta name="DC.Publisher" content="Università di Bologna">
+  	<meta name="DC.Date" content="2024-06">
+  	<meta name="DC.Type" content="Progetto universitario">
+  	<meta name="DC.Format" content="text/html/CSS/JS">
+  	<meta name="DC.Language" content="it">
+  	<meta name="DC.Source" content="Bootstrap, w3school, knightlab">
+  	<meta name="DC.Identifier" href="file:///Users/agnese/Desktop/Digital%20humanities%20(Tomasi)/sito-html/index.html">
+  	<meta name="DC.Rights" content="Rilasciato con licenza Creative Commons CC0 1.0 DEED">
+  	<!--viewport per la visualizzazione su diversi device-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--link a CSS da Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/fogliostile.css"/>
+	<!--link per le icone-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+	<!--header-->
+	<header class="titolo">
+		<div class="immagine-sfondo">
+			<div class="testo-scrivania">
+				<h1>La scrivania di Arnoldo Mondadori</h1>
+			</div>
+		</div>
+	</header>
+	<!--barra di navigazione sticky top da bootstrap-->
+	<nav class="navbar sticky-top">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="index.html" class="active">Home</a>
+	    <a class="navbar-brand" href="#">Biografia</a>
+	    <a class="navbar-brand" href="archivio.html">Archivio</a>
+	    <a class="navbar-brand" href="#">Galleria</a>
+	    <a class="navbar-brand" href="#">Fonti</a>
+		<form class="example" action="action_page.php">
+		  <input type="text" placeholder="Search..." name="search">
+		  <button type="submit"><i class="fa fa-search"></i></button>
+		</form>
+	  </div>
+	</nav>
+
+	<!--sezione uno-->
+	<section class="timeline">
+		<div>
+			<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1vuaRZxjJuYOczjdjstw9BB_490exTMZaQxnYlLNOCEA&font=Default&lang=en&initial_zoom=2&height=550' width='100%' height='550' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+		</div>
+	</section>
+	
+	<!--sezione due-->
+	<section class="main">
+		<div class="box">
+			<h1> Il progetto </h1>
+			<p>
+				<i>La scrivania di Arnoldo Mondadori</i> nasce per raccogliere in un unico luogo tutti i documenti d'archivio passati sotto l'occhio dello storico editore milanese. L'obiettivo del progetto è rendere accessibili a tutti, in formato digitale, lettere, contratti, pareri editoriali e tante altre tipologie di documenti che possono aiutare a dipingere un quadro più completo della figura di Arnoldo Mondadori e del suo rapporto con tutti quei collaboratori, autori, amici e colleghi che hanno contribuito alla costruzione del suo impero editoriale.
+			</p>
+			<br>
+			<div>
+				<button class="btn-custom" type="button"><a href="archivio.html">Esplora l'Archivio</a></button>
+				<button class="btn-custom" type="button"><a href="#">Scopri le Fonti</a></button>
+			</div>
+		</div>
+	</section>
+	<!--sezione tre-->
+	<section class="ref">
+		<div class="row">
+			<div class="contatti col">
+				<h2>Contatti e riferimenti utili</h2>
+				<ul> 
+					<li><a href="https://www.fondazionemondadori.it" target="_blank">Fondazione Arnoldo e Alberto Mondadori</a>, via Riccione 8, Milano, MI 20156
+					<br>
+					Tel. 02.39273061 | Fax 02.39273069
+					<br>
+					E-mail:info@fondazionemondadori.it
+					<br>
+					PEC fondazione.mondadori@pec.it
+					</li>
+					<li><a href="https://www.aie.it/Home.aspx" target="_blank">AIE, Associazione Italiana Editori</a>, Corso di Porta Romana 108, Milano, MI 20122
+					<br>
+					Tel. 02.89280800
+					<br>
+					E-mail:info@aie.it
+					<br>
+					PEC aie-pec@pec.aie.it | ufficiopersonale@pec.aie.it
+					</li>
+					<li> <a href="https://www.lombardiabeniculturali.it/archivi/progetti/MIPR000360/" target="_blank">LombardiaBeniCulturali </a> presso Regione Lombardia, Piazza Città di Lombardia 1, Milano, MI 20124 – Promotore del progetto "Fondazione Arnoldo e Alberto Mondadori: censimento degli archivi editoriali della Lombardia, 1999 - 2008"
+					<br>
+					E-mail: infolbc@regione.lombardia.it
+					</li>
+				</ul>
+			</div> 
+			<div class="enti col">
+				<h2>Enti promotori</h2>
+				<br>
+				<div class="flex-container">
+					<a href="https://www.aie.it" target="_blank"><img src="Img/Layout/Loghi/AIE_logo.png" alt="Vai al sito dell'AIE"></a>
+			        <a href="https://www.comune.milano.it" target="_blank"><img src="Img/Layout/Loghi/ComuneMilano_logo.webp" alt="Vai al sito del Comune di Milano"></a>
+			        <a href="https://www.fondazionemondadori.it" target="_blank"><img src="Img/Layout/Loghi/FondazioneMondadori_logo.jpeg" alt="Vai al sito della Fondazione Arnoldo e Alberto Mondadori"></a>
+			       	<a href="https://www.giornaledellalibreria.it" target="_blank"><img src="Img/Layout/Loghi/GdL_logo.jpeg" alt="Vai al sito del Giornale della Libreria"></a>
+			        <a href="https://www.beniculturali.it" target="_blank"><img src="Img/Layout/Loghi/Mibac_logo.jpeg" alt="Vai al sito del Ministero della Cultura"></a>
+			        <a href="https://www.mondadori.it" target="_blank"><img src="Img/Layout/Loghi/Mondadori_logo.jpeg" alt="Vai al sito di Mondadori"></a>
+			       	<a href="https://www.regione.lombardia.it/wps/portal/istituzionale/" target="_blank"><img src="Img/Layout/Loghi/RegioneLombardia_logo.png" alt="Vai al sito della Regione Lombardia"></a>
+			        <a href="https://www.unibo.it/it" target="_blank"><img src="Img/Layout/Loghi/Unibo_logo.png" alt="Vai al sito dell'Università di Bologna"></a>
+			    </div>
+	        </div>
+		</div>
+	</section>
+	<!--bottone per tornare in alto-->
+	<button onclick="topFunction()" id="myBtn" title="Torna su">Torna su</button>
+	
+
+	<!--prefooter e footer-->
+	<section>
+		<div class="pre-footer">Alma Mater Studiorum – Università di Bologna 
+			<br>
+		    Credits | Licenze
+		</div>
+	</section>
+	<footer>
+		<div class="footer">&copy;Agnese Sfratato 2024
+		<br> Dipartimento di Filologia Classica e Italianistica | Corso di <i> Digital Humanities e Patrimonio culturale</i></div>
+	</footer>
+
+
+
+<!--script per java-->
+<script src="js/script-tab.js"></script>
+<!--script per bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
