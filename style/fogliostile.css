@@ -240,7 +240,7 @@ form.example::after {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -251,7 +251,7 @@ form.example::after {
 }
 
 .flex-container img {
-    max-width: 100%;
+    width: 120px;
     height: auto;
 }
 
@@ -336,13 +336,13 @@ h5 {
   cursor: pointer;
 }
 
-/* Add a light grey background on mouse-over */
+/* Add a colored background on mouse-over */
 #myBtnContainer .btn:hover {
   background-color: #ff3333;
   color:ghostwhite;
 }
 
-/* Add a dark background to the active button */
+/* Add a darker background to the active button */
 #myBtnContainer .btn.active {
   background-color: rgba(210, 0, 36, 1.0);
   color: ghostwhite;
@@ -361,6 +361,14 @@ h5 {
 }
 
 .col .card-body {
+  border: 2px solid rgba(210, 0, 36, 1.0);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; 
+  display:flex; 
+  flex-direction:column
+}
+
+.col-md-3 .card-body{
   border: 2px solid rgba(210, 0, 36, 1.0);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; 
