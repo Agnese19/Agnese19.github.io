@@ -60,7 +60,7 @@
                     <lb/>non scrive più un libro? 
                 </p>
                 <p>
-                    <lb/><q type="work title">"Il deserto dei Tartari"</q>, <q type="work title">"I sette messaggeri"</q>, 
+                    <lb/><q type="book title">"Il deserto dei Tartari"</q>, <q type="book title">"I sette messaggeri"</q>, 
                     <lb/>benchè abbiano rivelato un nuovo scrittore, un nuovo grande
                     <lb/>scrittore, e stiano correndo il mondo, devono rimanere simbo-
                     <lb break="no"/>li, o, per meglio esprimere il mio pensiero, promesse. Pro-
@@ -69,26 +69,26 @@
                 </p>
                 <p>
                     <lb/>Io ho la convinzione che in questo tormentato
-                    <lb/>scorcio (ormai) di secolo, l' <placeName>Italia</placeName> abbia espresso in Lei la
+                    <lb/>scorcio (ormai) di secolo, l' <placeName ref="xml/RDF.xml">Italia</placeName> abbia espresso in Lei la
                     <lb/>più originale personalità di narratore e di romanziere. Biso-
                     <lb break="no"/>gna che il nome degli scrittori italiani sia riportato alto
-                    <lb/>nel mondo, non essendo ammissibile che l'<placeName>Italia</placeName> sia ridotta
+                    <lb/>nel mondo, non essendo ammissibile che l'<placeName ref="xml/RDF.xml">Italia</placeName> sia ridotta
                     <lb/>a sola terra di importazione, di letteratura.
                 </p>
                 <p>
-                    <lb/>Lei, caro <persName>Buzzati</persName>, può far risentire alta e 
+                    <lb/>Lei, caro <persName ref="xml/RDF.xml">Buzzati</persName>, può far risentire alta e 
                     <lb/>profonda la voce del rinnovamento letterario italiano. Non
                     <lb/>Le dico altro: attendo con fiducia che Ella mi risponda due
                     <lb/>sole parole: sto scrivendo.
                 </p>
                 <closer>
-                    <salute>Col più vivo affetto, mi creda, caro <persName>Buzzati</persName></salute>
-                    <signed>Suo<persName>Arnoldo Mondadori</persName></signed>
+                    <salute>Col più vivo affetto, mi creda, caro <persName ref="xml/RDF.xml">Buzzati</persName></salute>
+                    <signed>Suo<persName ref="xml/RDF.xml">Arnoldo Mondadori</persName></signed>
                 </closer>
                 <postscript>
-                    <lb/>prof. <persName>DINO BUZZATI</persName>
+                    <lb/>prof. <persName ref="xml/RDF.xml">DINO BUZZATI</persName>
                     <lb/> Viale Maino, 18
-                    <lb/>Milano
+                    <lb/><placeName ref="xml/RDF.xml">Milano</placeName>
                 </postscript>
             </div>
         </body>
