@@ -1,25 +1,42 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<!--metadata-->
     <teiHeader xml:lang="it">  
-        <fileDesc>
+        <fileDesc> <!--obbligatorio-->
             <titleStmt>
                 <title>CA_Mondadori_Buzzati_L.ds.01</title>
                 <author>Mondadori, Arnoldo</author>
                 <editor>Sfratato, Agnese</editor>
+                <sponsor>Fondazione Arnoldo e Alberto Mondadori</sponsor>
             </titleStmt>
             <publicationStmt> <!--informazioni sulla pubblicazione del testo elettronico-->
-                <publisher>Sfratato, Agnese</publisher>
-                <date>2024-06</date>
-                <location>Bologna</location>
+                <publisher>Fondazione Arnoldo e Alberto Mondadori</publisher>
+                <pubPlace>Milano<pubPlace>
+                <date>2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p>Lettera dattiloscritta conservata presso l'archivio storico Arnoldo Mondadori Editore (AME)</p>
+                <bibl>Archivio storico Arnoldo Mondadori Editore (AME), sezione Arnoldo Mondadori, fascicolo Dino Buzzati, lettera dattiloscritta</bibl>
             </sourceDesc>
-        </fileDesc> <!--obbligatorio-->
+        </fileDesc>
         <encodingDesc>
-            <projectDesc></projectDesc>
-            <editorialDecl></editorialDecl>
+            <projectDesc>La presente lettera rientra nel novero di quei documenti che, durante gli anni di presidenza presso la casa editrice da lui fondata, hanno simbolicamente attraversato la scrivania di Arnoldo Mondadori. Il progetto ideato dalla Fondazione Arnoldo e Alberto Mondadori mira a raccogliere tutti questi documenti in un unico archivio digitale. Allo stato attuale, infatti, i documenti sono dislocati in vari luoghi di conservazione e sono soltanto in minima parte accessibili in versione digitale. La presente raccolta si propone di renderne più agevole la fruizione suddividendoli in quattro macro-categorie e codificando un sistema univoco di nomenclatura; di ogni documento raccolto nell'archivio viene resa disponibile una scansione digitale scaricabile e la relativa trascrizione del testo.</projectDesc>
+            <editorialDecl>La trascrizione diplomatica adottata riporta fedelmente il testo nella sua versione originale, mantenendo abbreviazioni, maiuscole e minuscole, punteggiatura, accenti ed eventuali errori di battitura. Dove necessario, sono marcate appositamente cancellature, aggiunte, note a margine ecc.</editorialDecl>
         </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Mondadori, Arnoldo</persName>
+                    <date when="1946-10-30">10 ottobre 1946</date>
+                    <settlement>Milano</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Buzzati, Dino</persName>
+                    <settlement>Milano</settlement>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="it">italiano</language>
+            </langUsage>
+        </profileDesc>
 	</teiHeader>
 
         <!--trascrizione-->
@@ -28,27 +45,52 @@
             <div type="letter">
                 <opener>
                     <dateline>
-                        <placeName>Milano</placeName>
+                        <placeName ref="xml/RDF.xml">Milano</placeName>
                         <date when="1946-10-30">30 ottobre 1946</date>
                     </dateline>
-                    <salute>Caro <persName ref="">Buzzati</persName>,</salute>
+                    <salute>Caro <persName ref="xml/RDF.xml">Buzzati</persName>,</salute>
                 </opener>
                 <p>
-                <lb/>
-                <lb/>
+                    <lb/>se è vero che l'editore possa dirsi un po' il
+                    <lb/>padre spirituale di un autore o almeno considerarsene il ca-
+                    <lb break="no"/>talizzatore (per adoperare espressioni più moderne), ecco che
+                    <lb/>io, Suo editore, non indugio a intervenire presso di Lei come 
+                    <lb/>strumento spirituale o fisico, secondo sia da ritenersi.
+                    <lb/>E Le chiedo: perchè, caro <persnName ref="xml/RDF.xml">Buzzati</persName>, da tempo, ormai da tempo,
+                    <lb/>non scrive più un libro? 
+                </p>
+                <p>
+                    <lb/><q type="work title">"Il deserto dei Tartari"</q>, <q type="work title">"I sette messaggeri"</q>, 
+                    <lb/>benchè abbiano rivelato un nuovo scrittore, un nuovo grande
+                    <lb/>scrittore, e stiano correndo il mondo, devono rimanere simbo-
+                    <lb break="no"/>li, o, per meglio esprimere il mio pensiero, promesse. Pro-
+                    <lb break="no"/>messe di nuove, più belle fatiche, di nuove più belle affer-
+                    <lb break="no"/>mazioni.
+                </p>
+                <p>
+                    <lb/>Io ho la convinzione che in questo tormentato
+                    <lb/>scorcio (ormai) di secolo, l' <placeName>Italia</placeName> abbia espresso in Lei la
+                    <lb/>più originale personalità di narratore e di romanziere. Biso-
+                    <lb break="no"/>gna che il nome degli scrittori italiani sia riportato alto
+                    <lb/>nel mondo, non essendo ammissibile che l'<placeName>Italia</placeName> sia ridotta
+                    <lb/>a sola terra di importazione, di letteratura.
+                </p>
+                <p>
+                    <lb/>Lei, caro <persName>Buzzati</persName>, può far risentire alta e 
+                    <lb/>profonda la voce del rinnovamento letterario italiano. Non
+                    <lb/>Le dico altro: attendo con fiducia che Ella mi risponda due
+                    <lb/>sole parole: sto scrivendo.
                 </p>
                 <closer>
                     <salute>Col più vivo affetto, mi creda, caro <persName>Buzzati</persName></salute>
                     <signed>Suo<persName>Arnoldo Mondadori</persName></signed>
                 </closer>
                 <postscript>
-                    <lb/>
-                    <lb/>
+                    <lb/>prof. <persName>DINO BUZZATI</persName>
+                    <lb/> Viale Maino, 18
+                    <lb/>Milano
                 </postscript>
-        
             </div>
-
-
         </body>
 	</text>
 </TEI>
