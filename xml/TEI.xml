@@ -87,8 +87,10 @@
                 </closer>
                 <postscript>
                     <lb/>prof. <persName ref="xml/RDF.xml">DINO BUZZATI</persName>
-                    <lb/> Viale Maino, 18
-                    <lb/><placeName ref="xml/RDF.xml">Milano</placeName>
+                    <address>
+                        <lb/><addrLine>Viale Maino, 18</addrLine>
+                        <lb/><addrLine><placeName ref="xml/RDF.xml">Milano</placeName></addrLine>
+                    </address>
                 </postscript>
             </div>
         </body>
