@@ -60,7 +60,7 @@
                     <lb/>non scrive più un libro? 
                 </p>
                 <p>
-                    <lb/><q type="book title">"Il deserto dei Tartari"</q>, <q type="book title">"I sette messaggeri"</q>, 
+                    <lb/><q><title>"Il deserto dei Tartari"</q></title>, <q><title>"I sette messaggeri"</q></title>, 
                     <lb/>benchè abbiano rivelato un nuovo scrittore, un nuovo grande
                     <lb/>scrittore, e stiano correndo il mondo, devono rimanere simbo-
                     <lb break="no"/>li, o, per meglio esprimere il mio pensiero, promesse. Pro-
