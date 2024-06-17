@@ -12,6 +12,7 @@
                 <publisher>Fondazione Arnoldo e Alberto Mondadori</publisher>
                 <pubPlace>Milano</pubPlace>
                 <date>2024</date>
+                <availability><p>Questo testo è liberamente consultabile e scaricabile</p></availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl>Archivio storico Arnoldo Mondadori Editore (AME), sezione Arnoldo Mondadori, fascicolo Dino Buzzati, lettera dattiloscritta</bibl>
@@ -89,15 +90,13 @@
                     <salute>Col più vivo affetto, mi creda, caro <persName ref="xml/RDF.xml">Buzzati</persName></salute>
                     <signed>Suo<persName ref="xml/RDF.xml">Arnoldo Mondadori</persName></signed>
                 </closer>
-                <postscript>
-                    <p>
-                        <lb/><abbr>prof.</abbr><persName ref="xml/RDF.xml">DINO BUZZATI</persName>
-                        <address>
-                            <lb/><addrLine>Viale Maino, 18</addrLine>
-                            <lb/><addrLine><placeName ref="xml/RDF.xml">Milano</placeName></addrLine>
-                        </address>
-                    </p>
-                </postscript>
+                <trailer>
+                    <lb/><abbr>prof.</abbr><persName ref="xml/RDF.xml">DINO BUZZATI</persName>
+                    <address>
+                        <lb/><addrLine>Viale Maino, 18</addrLine>
+                        <lb/><addrLine><placeName ref="xml/RDF.xml">Milano</placeName></addrLine>
+                    </address>
+                </trailer>
             </div>
         </body>
 	</text>
