@@ -55,18 +55,18 @@
                     <salute>Caro <persName ref="xml/RDF.xml">Buzzati</persName>,</salute>
                 </opener>
                 <p>
-                    <lb/>se è vero che l'editore possa dirsi un po' il
-                    <lb/>padre spirituale di un autore o almeno considerarsene il ca-
+                    <lb/>se è vero che l'<term type="ruolo">editore</term> possa dirsi un po' il
+                    <lb/>padre spirituale di un <term type="ruolo">autore</term> o almeno considerarsene il ca-
                     <lb break="no"/>talizzatore (per adoperare espressioni più moderne), ecco che
-                    <lb/>io, Suo editore, non indugio a intervenire presso di Lei come 
+                    <lb/>io, Suo <term type="ruolo">editore</term>, non indugio a intervenire presso di Lei come 
                     <lb/>strumento spirituale o fisico, secondo sia da ritenersi.
                     <lb/>E Le chiedo: perchè, caro <persName ref="xml/RDF.xml">Buzzati</persName>, da tempo, ormai da tempo,
                     <lb/>non scrive più un libro? 
                 </p>
                 <p>
-                    <lb/><q><title>"Il deserto dei Tartari"</title></q>, <q><title>"I sette messaggeri"</title></q>, 
-                    <lb/>benchè abbiano rivelato un nuovo scrittore, un nuovo grande
-                    <lb/>scrittore, e stiano correndo il mondo, devono rimanere simbo-
+                    <lb/><q><title type="opera">"Il deserto dei Tartari"</title></q>, <q><title type="opera">"I sette messaggeri"</title></q>, 
+                    <lb/>benchè abbiano rivelato un nuovo <term type="ruolo">scrittore</term>, un nuovo grande
+                    <lb/><term type="ruolo">scrittore</term>, e stiano correndo il mondo, devono rimanere simbo-
                     <lb break="no"/>li, o, per meglio esprimere il mio pensiero, promesse. Pro-
                     <lb break="no"/>messe di nuove, più belle fatiche, di nuove più belle affer-
                     <lb break="no"/>mazioni.
@@ -74,8 +74,8 @@
                 <p>
                     <lb/>Io ho la convinzione che in questo tormentato
                     <lb/>scorcio (ormai) di secolo, l' <placeName ref="xml/RDF.xml">Italia</placeName> abbia espresso in Lei la
-                    <lb/>più originale personalità di narratore e di romanziere. Biso-
-                    <lb break="no"/>gna che il nome degli scrittori italiani sia riportato alto
+                    <lb/>più originale personalità di <term type="ruolo">narratore</term> e di <term type="ruolo">romanziere</term>. Biso-
+                    <lb break="no"/>gna che il nome degli <term type="ruolo">scrittori</term> italiani sia riportato alto
                     <lb/>nel mondo, non essendo ammissibile che l'<placeName ref="xml/RDF.xml">Italia</placeName> sia ridotta
                     <lb/>a sola terra di importazione, di letteratura.
                 </p>
