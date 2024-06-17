@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="https://www.geonames.org/ontology#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
-    <rdf:Description rdf:about="http://viaf.org/viaf/27061960">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+<!--metto tanti URI quante sono le ontologie che uso per le triple-->
+<rdf:RDF 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+xmlns:gn="https://www.geonames.org/ontology#" 
+xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+
+    <rdf:Description 
+    rdf:about="http://viaf.org/viaf/27061960">
+        <rdf:type 
+        rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <foaf:name>Buzzati, Dino</foaf:name>
     </rdf:Description>
 
