@@ -80,6 +80,10 @@ header {
 	padding-bottom: 50px;
 }
 
+.testo-scrivania h1 {
+  font-size:50px;
+}
+
 .immagine-sfondo {
 	background-image:linear-gradient(rgba(80, 80, 90, 0.7), rgba(80, 80, 90, 0.7)), url("../Img/Layout/Arnoldo_Scrivania.jpeg");
 	background-size: cover;
