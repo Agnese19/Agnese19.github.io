@@ -18,8 +18,12 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <projectDesc>La presente lettera rientra nel novero di quei documenti che, durante gli anni di presidenza presso la casa editrice da lui fondata, hanno simbolicamente attraversato la scrivania di Arnoldo Mondadori. Il progetto ideato dalla Fondazione Arnoldo e Alberto Mondadori mira a raccogliere tutti questi documenti in un unico archivio digitale. Allo stato attuale, infatti, i documenti sono dislocati in vari luoghi di conservazione e sono soltanto in minima parte accessibili in versione digitale. La presente raccolta si propone di renderne più agevole la fruizione suddividendoli in quattro macro-categorie e codificando un sistema univoco di nomenclatura; di ogni documento raccolto nell'archivio viene resa disponibile una scansione digitale scaricabile e la relativa trascrizione del testo.</projectDesc>
-            <editorialDecl>La trascrizione diplomatica adottata riporta fedelmente il testo nella sua versione originale, mantenendo abbreviazioni, maiuscole e minuscole, punteggiatura, accenti ed eventuali errori di battitura. Dove necessario, sono marcate appositamente cancellature, aggiunte, note a margine ecc.</editorialDecl>
+            <projectDesc>
+                <p>La presente lettera rientra nel novero di quei documenti che, durante gli anni di presidenza presso la casa editrice da lui fondata, hanno simbolicamente attraversato la scrivania di Arnoldo Mondadori. Il progetto ideato dalla Fondazione Arnoldo e Alberto Mondadori mira a raccogliere tutti questi documenti in un unico archivio digitale. Allo stato attuale, infatti, i documenti sono dislocati in vari luoghi di conservazione e sono soltanto in minima parte accessibili in versione digitale. La presente raccolta si propone di renderne più agevole la fruizione suddividendoli in quattro macro-categorie e codificando un sistema univoco di nomenclatura; di ogni documento raccolto nell'archivio viene resa disponibile una scansione digitale scaricabile e la relativa trascrizione del testo.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>La trascrizione diplomatica adottata riporta fedelmente il testo nella sua versione originale, mantenendo abbreviazioni, maiuscole e minuscole, punteggiatura, accenti ed eventuali errori di battitura. Dove necessario, sono marcate appositamente cancellature, aggiunte, note a margine ecc.</p>
+            </editorialDecl>
         </encodingDesc>
         <profileDesc>
             <correspDesc>
@@ -86,11 +90,13 @@
                     <signed>Suo<persName ref="xml/RDF.xml">Arnoldo Mondadori</persName></signed>
                 </closer>
                 <postscript>
-                    <lb/>prof. <persName ref="xml/RDF.xml">DINO BUZZATI</persName>
-                    <address>
-                        <lb/><addrLine>Viale Maino, 18</addrLine>
-                        <lb/><addrLine><placeName ref="xml/RDF.xml">Milano</placeName></addrLine>
-                    </address>
+                    <p>
+                        <lb/>prof.<persName ref="xml/RDF.xml">DINO BUZZATI</persName>
+                        <address>
+                            <lb/><addrLine>Viale Maino, 18</addrLine>
+                            <lb/><addrLine><placeName ref="xml/RDF.xml">Milano</placeName></addrLine>
+                        </address>
+                    </p>
                 </postscript>
             </div>
         </body>
