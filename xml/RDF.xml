@@ -18,3 +18,4 @@
         <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Country"/>
         <gn:name>Italia</gn:name>
     </rdf:Description>
+</rdf:RDF>
