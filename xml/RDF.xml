@@ -50,11 +50,11 @@ xmlns:gn="https://www.geonames.org/ontology#">
     a schema:Person ;
     schema:name "Arnoldo Mondadori" ;
 
-<http://opac.sbn.it/bid/MIL0190170> <!--sono uri fake, cercane da un'altra parte-->
+<https://lccn.loc.gov/97172971>
     a schema:Book ;
     schema:name "Il deserto dei Tartari" ;
 
-<http://opac.sbn.it/bid/LO1V001245>
+<https://openlibrary.org/works/OL14799667M>
     ref:type schema:Book ;
     schema:name "I sette messaggeri" ;
 
