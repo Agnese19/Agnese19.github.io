@@ -1,4 +1,4 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="https://www.geonames.org/ontology#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="https://www.geonames.org/ontology#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
     <rdf:Description rdf:about="http://viaf.org/viaf/27061960">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <foaf:name>Buzzati, Dino</foaf:name>
@@ -10,11 +10,11 @@
     </rdf:Description>
 
     <rdf:Description rdf:about="https://www.geonames.org/3173434/citta-metropolitana-di-milano.html">
-        <rdf:type rdf:resource=""/>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#CitySection"/>
         <gn:name>Milano</gn:name>
     </rdf:Description>
 
     <rdf:Description rdf:about="https://www.geonames.org/countries/IT/italy.html">
-        <rdf:type rdf:resource=""/>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Country"/>
         <gn:name>Italia</gn:name>
     </rdf:Description>
