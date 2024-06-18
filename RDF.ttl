@@ -27,4 +27,4 @@
     rdf:type schema:Book ;
     schema:name "I sette messaggeri" .
 
-#Alternativa: file RDF.xml nella cartella xml.
+#Alternativa: xml/RDF.xml
