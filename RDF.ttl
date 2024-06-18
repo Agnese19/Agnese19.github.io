@@ -1,29 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix schema: <http://schema.org/> .
 @prefix gn: <https://www.geonames.org/ontology#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <https://www.geonames.org/3173434/citta-metropolitana-di-milano.html>
     rdf:type gn:Feature ; #Feature indica le entità geografiche
-    gn:name "Milano" ;
+    gn:name "Milano" .
 
 <https://www.geonames.org/3175395/italy.html>
     rdf:type gn:Feature ;
-    gn:name "Italia" ;
+    gn:name "Italia" .
 
 <http://viaf.org/viaf/27061960>
     rdf:type foaf:Person ;
-    foaf:name "Dino Buzzati" ;
+    foaf:name "Dino Buzzati" .
 
 <http://viaf.org/viaf/71483510>
     rdf:type foaf:Person ;
-    foaf:name "Arnoldo Mondadori" ;
+    foaf:name "Arnoldo Mondadori" .
 
 <https://opac.sbn.it/risultati-opere/-/opac-opere/detail/UBO3090422>
     rdf:type schema:Book ;
-    schema:name "Il deserto dei Tartari" ;
+    schema:name "Il deserto dei Tartari" .
 
 <https://opac.sbn.it/risultati-opere/-/opac-opere/detail/UBO2182218>
     rdf:type schema:Book ;
-    schema:name "I sette messaggeri" ;
+    schema:name "I sette messaggeri" .
 
+#Alternativa: file RDF.xml nella cartella xml.
