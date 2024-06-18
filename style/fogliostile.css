@@ -71,7 +71,7 @@ header {
   width: 100%;
 }
 
-.testo-scrivania {
+.scrivania {
 	text-align: center;
 	color: ghostwhite;
 	text-shadow: 2px 2px 2px rgb(210,0,36);
@@ -80,11 +80,11 @@ header {
 	padding-bottom: 50px;
 }
 
-.testo-scrivania h1 {
+.scrivania h1 {
   font-size:50px;
 }
 
-.immagine-sfondo {
+.bg-image {
 	background-image:linear-gradient(rgba(80, 80, 90, 0.7), rgba(80, 80, 90, 0.7)), url("../Img/Layout/Arnoldo_Scrivania.jpeg");
 	background-size: cover;
 	background-position: center;
@@ -465,7 +465,7 @@ h5 {
 }
 
 .col .download {
-  font-size: 160px;
+  font-size: 180px;
   color: rgba(210, 0, 36, 1.0);
   float: center;
 }
