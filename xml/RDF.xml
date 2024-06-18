@@ -4,7 +4,8 @@
 <rdf:RDF 
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
 xmlns:foaf="http://xmlns.com/foaf/0.1/" 
-xmlns:gn="https://www.geonames.org/ontology#">
+xmlns:gn="https://www.geonames.org/ontology#"
+xmlns:schema="http://schema.org/">
 
     <rdf:Description 
     rdf:about="http://viaf.org/viaf/27061960">
@@ -18,8 +19,8 @@ xmlns:gn="https://www.geonames.org/ontology#">
         <foaf:name>Mondadori, Arnoldo</foaf:name>
     </rdf:Description>
 
-    <rdf:Description rdf:about="https://www.geonames.org/3173434/citta-metropolitana-di-milano.html">
-        <rdf:type rdf:resource="https://www.geonames.org/ontology#A.P.PPLA2"/>
+    <rdf:Description rdf:about="https://www.geonames.org/3173435/milan.html">
+        <rdf:type rdf:resource="https://www.geonames.org/ontology#A.P.PPLA"/>
         <gn:name>Milano</gn:name>
     </rdf:Description>
 
@@ -27,6 +28,16 @@ xmlns:gn="https://www.geonames.org/ontology#">
         <rdf:type rdf:resource="https://www.geonames.org/ontology#A.PCLI"/>
         <gn:name>Italia</gn:name>
     </rdf:Description>
+
+    <rdf:Description rdf:about="https://opac.sbn.it/risultati-opere/-/opac-opere/detail/UBO3090422">
+        <rdf:type rdf:resource="http://schema.org/Book"/>
+        <schema:name>Il deserto dei Tartari</schema:name>
+
+    <rdf:Description rdf:about="https://opac.sbn.it/risultati-opere/-/opac-opere/detail/UBO2182218">
+        <rdf:type rdf:resource="http://schema.org/Book"/>
+        <schema:name>I sette messaggeri</schema:name>
+   
+
 </rdf:RDF>
 
 @prefix schema: <http://schema.org/> .
@@ -35,26 +46,26 @@ xmlns:gn="https://www.geonames.org/ontology#">
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <https://www.geonames.org/3173434/citta-metropolitana-di-milano.html>
-    rdf:type schema:City ;
-    schema:name "Milano" ;
+    rdf:type gn:Feature ; <!--Feature indica le entità geografiche-->
+    gn:name "Milano" ;
 
 <https://www.geonames.org/3175395/italy.html>
-    rdf:type schema:Country ;
-    schema:name "Italia" ;
+    rdf:type gn:Feature ;
+    gn:name "Italia" ;
 
-<http://viaf.org/viaf/101833285>
-    rdf:type schema:Person ;
-    schema:name "Dino Buzzati" ;
+<http://viaf.org/viaf/27061960>
+    rdf:type foaf:Person ;
+    foaf:name "Dino Buzzati" ;
 
-<http://viaf.org/viaf/95105647>
-    a schema:Person ;
-    schema:name "Arnoldo Mondadori" ;
+<http://viaf.org/viaf/71483510>
+    rdf:type foaf:Person ;
+    foaf:name "Arnoldo Mondadori" ;
 
-<https://lccn.loc.gov/97172971>
-    a schema:Book ;
+<https://opac.sbn.it/risultati-opere/-/opac-opere/detail/UBO3090422>
+    rdf:type schema:Book ;
     schema:name "Il deserto dei Tartari" ;
 
-<https://openlibrary.org/works/OL14799667M>
-    ref:type schema:Book ;
+<https://opac.sbn.it/risultati-opere/-/opac-opere/detail/UBO2182218>
+    rdf:type schema:Book ;
     schema:name "I sette messaggeri" ;
 
