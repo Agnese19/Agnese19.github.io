@@ -120,11 +120,11 @@ function ReadMore() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
+    btnText.innerHTML = "Leggi di più";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btnText.innerHTML = "Leggi di meno";
     moreText.style.display = "inline";
   }
 }
