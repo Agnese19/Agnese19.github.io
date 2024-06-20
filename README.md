@@ -49,5 +49,3 @@ Questo progetto è concesso in licenza sotto la licenza MIT.
 ## Contatti
 
 Per ulteriori informazioni, domande o suggerimenti, si prega di contattarci all'indirizzo email: scrivania.mondadori@gmail.com
-
-

@@ -121,6 +121,7 @@ header {
 .navbar a:hover {
   background-color: #ff3333;
   color: ghostwhite;
+  border-radius:10px
 }
 /*search bar*/
 
@@ -218,7 +219,6 @@ form.example::after {
 }
 
 .contatti {
-  text-align:left;
   background-color: white;
   text-align: center;
   margin: 10px 10px 0px 10px;
@@ -232,7 +232,6 @@ form.example::after {
 .enti {
   text-align:center;
   background-color: white;
-  text-align: center;
   margin: 10px 10px 0px 10px;
   padding-top: 30px;
   padding-bottom: 30px;
