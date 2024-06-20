@@ -1,46 +1,53 @@
-# Archivio Digitale Arnoldo Mondadori
+# La scrivania di Arnoldo Mondadori
 
-Benvenuti nell'archivio digitale di Arnoldo Mondadori, una raccolta online di documenti storici, manoscritti e altri materiali relativi alla vita e alle opere di Arnoldo Mondadori, uno dei più importanti editori italiani del XX secolo.
+Questo archivio digitale raccoglie in un unico luogo tutti i documenti passati tra le mani dello storico editore lombardo Arnoldo Mondadori, proponendosi come utile strumento di consultazione e di ricerca per appassionati e professionisti di vari settori, dalla storia dell'editoria alla critica letteraria.
 
 ## Descrizione
 
-Questo sito web è stato creato per conservare e rendere accessibili i documenti storici di Arnoldo Mondadori. L'archivio include:
+L'obiettivo del progetto è rendere accessibili a tutti, in formato digitale, lettere, contratti, pareri editoriali e tante altre tipologie di documenti, sia pubblici sia privati, che possono aiutare a delineare un quadro più completo della figura di Arnoldo Mondadori e dei suoi rapporti con collaboratori, autori, amici e colleghi.
+La sezione fondante del progetto è rappresentata dall'Archivio, che organizza i documenti raccolti in quattro macro-aree:
 
-- **Lettere personali e professionali**
-- **Manoscritti originali**
-- **Fotografie storiche**
-- **Documenti aziendali**
-- **Articoli di giornale**
+- **Corrispondenza con gli autori**
+- **Comunicazioni interne**
+- **Contratti e trattativa**
+- **Documenti privati**
+
+Oltre all'esplorazione dell'Archivio, il sito offre la possibilià di:
+- **Leggere una biografia completa e dettagliata di Arnoldo Mondadori**
+- **Consultare le fonti da cui sono tratti i materiali e le informazioni biografiche**
+- **Sfogliare una galleria fotografica che testimonia la lunga attività editoriale e la vita privata di Arnoldo Mondadori**
+
 
 ## Funzionalità
 
-- **Ricerca Avanzata**: Trova documenti specifici utilizzando parole chiave, date o tipologie di documenti.
-- **Visualizzazione dei Documenti**: Sfoglia i documenti digitalizzati in alta risoluzione.
-- **Esplorazione Tematica**: Naviga attraverso i materiali organizzati per temi o periodi storici.
-- **Download**: Scarica i documenti per uso personale e ricerche.
-- **Accessibilità**: Interfaccia utente intuitiva e compatibile con vari dispositivi.
+La modalità di esplorazione principale dell'Archivio si basa sulla suddivisione dei materiali nelle 4 macro-aree descritte sopra. All'interno di ciascuna sezione sono presenti filtri per una navigazione agevole e mirata. Al momento, l'unica area implementata ("Corrispondenza con gli autori") prevede dei filtri per:
+- **Datazione dei documenti**: ordina i materiali dal più recente al meno recente o viceversa;
+- **Nome del corrispondente**: mostra solamente i materiali inviati o ricevuti dall'autore o autrice selezionato.
+
+Sono inoltre previste:
+- **Ricerca Avanzata**: trova documenti specifici utilizzando parole chiave, date o nomi.
+- **Navigazione per Indici**: consente di esplorare il corpus in base alle occorrenze di nomi di persona, luoghi, opere e ruoli professionali.
+
+Molta importanza è data alla descrizione dell'item e alla marcatura del testo; elementi essenziali presenti in ciascun documento sono:
+- **Metadati**: informazioni di base relative alla fonte primaria.
+-**Trascrizione del testo**: trascrizione diplomatica affiancata alla scansione digitalizzata della fonte primaria
+-**file .txt**
+-**file DC**
+-**file TEI**: marcatura del testo necessaria per l'implementazione degli indici.
 
 ## Struttura del Progetto
 
-- `docs/` : Documentazione del progetto
-- `src/` : Codice sorgente del sito web
-- `assets/` : Immagini e altri file multimediali
-- `data/` : Database dei documenti digitalizzati
-- `tests/` : Test automatizzati
-
-## Contributi
-
-I contributi sono benvenuti! Si prega di leggere il file [CONTRIBUTING.md](CONTRIBUTING.md) per maggiori dettagli sul nostro codice di condotta e il processo di invio delle pull request.
+Cartelle principali e contenuto:
+- `style/` : contiene il foglio di stile esterno CSS
+- `img/items` : raccoglie le scansioni digitali dei documenti
+- `xml/` : include i file RDF, DC e TEI
 
 ## Licenza
 
-Questo progetto è concesso in licenza sotto la licenza MIT - vedere il file [LICENSE](LICENSE) per i dettagli.
+Questo progetto è concesso in licenza sotto la licenza MIT.  
 
 ## Contatti
 
-Per ulteriori informazioni, domande o suggerimenti, si prega di contattarci all'indirizzo email: archivio.mondadori@example.com
+Per ulteriori informazioni, domande o suggerimenti, si prega di contattarci all'indirizzo email: scrivania.mondadori@gmail.com
 
----
-
-**Arnoldo Mondadori** (1889-1971) è stato un editore italiano, fondatore della casa editrice Arnoldo Mondadori Editore. Il suo contributo alla letteratura e alla cultura italiana è inestimabile, e questo archivio digitale mira a preservare e diffondere la sua eredità.
 
