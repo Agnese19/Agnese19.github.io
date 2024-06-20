@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<archivio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<archivio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<lettera xml:id="CA_Mondadori_Buzzati_Lds.01">
 		<dc:title>CA_Mondadori_Buzzati_Lds.01</dc:title>
 		<dc:creator>Mondadori, Arnoldo</dc:creator>
