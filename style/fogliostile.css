@@ -121,7 +121,7 @@ header {
 .navbar a:hover {
   background-color: #ff3333;
   color: ghostwhite;
-  border-radius:10px
+  border-radius: 5px
 }
 /*search bar*/
 
@@ -139,6 +139,8 @@ form.example input[type=text] {
   background-color: ghostwhite;
   margin-top: 8px;
   margin-bottom:8px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 /* Style the submit button */
@@ -154,6 +156,8 @@ form.example button {
   cursor: pointer;
   margin-top:8px;
   margin-bottom:8px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 form.example button:hover {
